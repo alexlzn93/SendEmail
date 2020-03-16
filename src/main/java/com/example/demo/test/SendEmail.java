@@ -28,14 +28,14 @@ public class SendEmail {
 	      
 	      Properties properties = System.getProperties();
 
-	      // Setup mail server
+	      // Propiedades de Servidor Email
 	      properties.setProperty("mail.smtp.user","emisor@gmail.com");
 	      properties.setProperty("mail.smtp.host", host);
 	      properties.setProperty("mail.smtp.port", port);
 	      properties.setProperty("mail.smtp.starttls.enable", "true");
 	      properties.setProperty("mail.smtp.auth", "true"); //autenticacion
 	      
-	      System.out.println("------------------------------------");
+	     
 
 	      // Get the default Session object.
 	      //Session session = Session.getDefaultInstance(properties);
